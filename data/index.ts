@@ -171,25 +171,32 @@ export const companies = [
 
 export const workExperience = [
   {
-    id: 1,
-    title: "Software Engineer - Trainee",
-    desc: "Vishwak Solutions: Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
-    className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    id: 4,
+    title: "Senior Developer",
+    desc: "Redgrape Business Services: Managing UK market for One of the world's largest independent wine merchants with over 50 years of success",
+    className: "md:col-span-2", // change to md:col-span-2
+    thumbnail: "/exp4.svg",
+  },
+  {
+    id: 3,
+    title: "Software Engineer",
+    desc: "DSRC: Development of React sites to audit Oil and gas pipelines in world-wide",
+    className: "md:col-span-2", // change to md:col-span-2
+    thumbnail: "/exp3.svg",
   },
   {
     id: 2,
     title: "Software Engineer",
-    desc: "DSRC: Designed and developed React sites for Oil and gas pipelines in Canada",
-    className: "md:col-span-2", // change to md:col-span-2
+    desc: "Vishwak Solutions: Designed and developed of a Realtime web-based platform using MERN stack and GraphQL, thus enhancing interactivity.",
+    className: "md:col-span-2",
     thumbnail: "/exp2.svg",
   },
   {
-    id: 3,
-    title: "Senior Developer",
-    desc: "RedGrape Business Services: Managing UK market for One of the world's largest independent wine merchants with over 50 years of success",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
+    id: 1,
+    title: "Software Engineer - Trainee",
+    desc: "Vishwak Solutions: Assisted in the development of a web-based platform using PHP.",
+    className: "md:col-span-2",
+    thumbnail: "/exp1.svg",
   },
 ];
 
