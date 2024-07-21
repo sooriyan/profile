@@ -13,9 +13,9 @@ export default function Process() {
         </h1>
         <div className="my-20 flex flex-col lg:flex-row items-center justify-center gap-4">
           <Card
-            title="Planning & Strategy"
+            title="Planning & Research"
             icon={<AceternityIcon order="Phase 1" />}
-            description="We'll collaborate to map out your website goals, target audience, and key functionalities"
+            description="Clearly outline the goals and purpose of the project. Develop a roadmap including timelines, milestones, and deliverables."
           >
             <CanvasRevealEffect
               animationSpeed={5.1}
@@ -23,9 +23,9 @@ export default function Process() {
             />
           </Card>
           <Card
-            title="Development & Progress Update"
+            title="Requirement Gathering"
             icon={<AceternityIcon order="Phase 2" />}
-            description="We'll collaborate to map out your website goals, target audience, and key functionalities"
+            description="Develop scenarios to understand how users will interact with the solution."
           >
             <CanvasRevealEffect
               animationSpeed={3}
@@ -40,9 +40,9 @@ export default function Process() {
             <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" />
           </Card>
           <Card
-            title="Launch & Support"
+            title="Development & Launch"
             icon={<AceternityIcon order="Phase 3" />}
-            description="We'll collaborate to map out your website goals, target audience, and key functionalities"
+            description="Implement the user interface and user experience design. Combine frontend and backend components, ensuring they work together seamlessly. Outline steps for deploying the solution to a live environment."
           >
             <CanvasRevealEffect
               animationSpeed={3}
