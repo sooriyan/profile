@@ -71,8 +71,14 @@ export const BentoGridItem = ({
       }}
     >
       <div className={`${id === 6 && "flex justify-center"} h-full `}>
-        <div className="w-full h-full absolute">
-          {img && (
+        <div
+          className={`w-full h-full absolute`}
+          style={{
+            backgroundImage: `${id === 1 && 'url("./b1.svg")'}`,
+            backgroundSize: `${id === 1 && "cover"} `,
+          }}
+        >
+          {img && id !== 1 && (
             <img
               src={img}
               alt={""}
